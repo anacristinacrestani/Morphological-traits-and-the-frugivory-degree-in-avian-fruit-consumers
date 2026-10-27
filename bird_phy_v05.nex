@@ -1,0 +1,45 @@
+#NEXUS
+[R-package PHYTOOLS, Mon Aug  4 13:36:30 2025]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 16;
+	TAXLABELS
+		Chiroxiphia_caudata
+		Elaenia_mesoleuca
+		Elaenia_spectabilis
+		Euphonia_chlorotica
+		Euphonia_violacea
+		Manacus_manacus
+		Myiarchus_swainsoni
+		Myiodynastes_maculatus
+		Pitangus_sulphuratus
+		Thraupis_ornata
+		Thraupis_palmarum
+		Thraupis_sayaca
+		Turdus_amaurochalinus
+		Turdus_leucomelas
+		Turdus_rufiventris
+		Tyrannus_melancholicus
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Chiroxiphia_caudata,
+		2	Elaenia_mesoleuca,
+		3	Elaenia_spectabilis,
+		4	Euphonia_chlorotica,
+		5	Euphonia_violacea,
+		6	Manacus_manacus,
+		7	Myiarchus_swainsoni,
+		8	Myiodynastes_maculatus,
+		9	Pitangus_sulphuratus,
+		10	Thraupis_ornata,
+		11	Thraupis_palmarum,
+		12	Thraupis_sayaca,
+		13	Turdus_amaurochalinus,
+		14	Turdus_leucomelas,
+		15	Turdus_rufiventris,
+		16	Tyrannus_melancholicus
+	;
+	TREE * UNTITLED = [&R] ((((14:5.74118446,15:5.74118446):1.316612509,13:7.057796968):36.79166757,((4:9.914125987,5:9.914125987):17.58047092,((10:0.9738138089,11:0.9738138089):2.896849652,12:3.870663461):23.62393344):16.35486763):23.36651293,(((7:14.41931988,((16:10.14474361,8:10.14474361):2.624122627,9:12.76886624):1.650453643):6.975735642,(2:9.222547034,3:9.222547034):12.17250849):12.64327618,(6:12.75265148,1:12.75265148):21.28568021):33.17764577);
+END;
